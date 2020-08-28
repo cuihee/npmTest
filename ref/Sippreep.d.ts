@@ -1,6 +1,6 @@
 /// <reference types="THREE" />
 
-declare namespace Sippreep {
+export declare namespace Sippreep {
   namespace Viewing {
     enum ErrorCodes {
       UNKNOWN_FAILURE = 1,
