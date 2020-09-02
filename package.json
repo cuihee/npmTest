@@ -1,12 +1,13 @@
 {
   "name": "siiri-viewer-dts",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "npm包测试",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "tsc --declaration"
+    "build": "tsc --declaration",
+    "publish": "tsc --declaration && npm publish"
   },
   "repository": {
     "type": "git",

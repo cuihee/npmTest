@@ -1,1 +1,10 @@
-lib/
+sources/
+/.git/
+/.vscode/
+/docs/
+/node_modules/
+.gitignore
+.npmignore
+tslint.json
+tsconfig.json
+*.log
