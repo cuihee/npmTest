@@ -1,9 +1,9 @@
 {
   "name": "siiri-viewer-dts",
-  "version": "0.0.7",
+  "version": "0.0.9",
   "description": "npm包测试",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.js",
+  "types": "src/ref/Sippreep.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --declaration",

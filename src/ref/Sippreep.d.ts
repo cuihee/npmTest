@@ -1,4 +1,4 @@
-/// <reference types="THREE" />
+
 
 export declare namespace Sippreep {
   namespace Viewing {
