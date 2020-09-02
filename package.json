@@ -1,6 +1,6 @@
 {
   "name": "siiri-viewer-dts",
-  "version": "0.0.12",
+  "version": "0.0.15",
   "description": "发布自己的声明文件，而不是@types",
   "main": "",
   "types": "src/ref/SippreepViewer.d.ts",
@@ -28,6 +28,6 @@
     "typescript": "^4.0.2"
   },
   "dependencies": {
-    "@types/three": "^0.84.0"
+
   }
 }

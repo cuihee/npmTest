@@ -1,6 +1,6 @@
 
 
-export declare namespace Sippreep {
+declare namespace Sippreep {
   namespace Viewing {
     enum ErrorCodes {
       UNKNOWN_FAILURE = 1,
