@@ -1,13 +1,13 @@
 {
   "name": "siiri-viewer-dts",
-  "version": "0.0.9",
-  "description": "npm包测试",
-  "main": "src/index.js",
-  "types": "src/ref/Sippreep.d.ts",
+  "version": "0.0.11",
+  "description": "发布自己的声明文件，而不是@types",
+  "main": "",
+  "types": "src/ref/SippreepViewer.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc --declaration",
-    "publish": "tsc --declaration && npm publish"
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",
@@ -26,5 +26,8 @@
   "homepage": "https://github.com/cuihee/npmTest#readme",
   "devDependencies": {
     "typescript": "^4.0.2"
+  },
+  "dependencies": {
+    "@types/three": "^0.84.0"
   }
 }
